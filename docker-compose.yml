@@ -1,0 +1,10 @@
+services:
+  php_api_infrastructure_adapter:
+    container_name: php_api_infrastructure_adapter
+    build:
+      context: .
+      dockerfile: ./devops/php/Dockerfile
+    environment:
+      - TZ=America/Sao_Paulo
+    volumes:
+      - .:/var/www/html/api-infrastructure-adapter:rw

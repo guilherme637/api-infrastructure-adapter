@@ -1,0 +1,26 @@
+{
+  "name": "zuske/api-infrastructure-adapter",
+  "description": "Provider common libs",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "guilherme",
+      "email": "guilhermejr296@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "jms/serializer-bundle": "^5.3",
+    "symfony/validator": "^6.3",
+    "doctrine/annotations": "^2.0",
+    "doctrine/doctrine-bundle": "^2.10",
+    "doctrine/orm": "^2.16",
+    "ext-redis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zuske\\Adapter\\": "src/"
+    }
+  }
+}
