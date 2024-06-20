@@ -5,14 +5,13 @@
   "license": "proprietary",
   "authors": [
     {
-      "name": "guilherme",
-      "email": "guilhermejr296@gmail.com"
+      "name": "guilherme"
     }
   ],
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.3",
     "jms/serializer-bundle": "^5.3",
-    "symfony/validator": "^5.4",
+    "symfony/validator": "^6.4",
     "doctrine/annotations": "^2.0",
     "doctrine/doctrine-bundle": "^2.10",
     "doctrine/orm": "^2.16",
